@@ -33,6 +33,7 @@
       fullscreen () {
         //this.gameInstance.SetFullscreen(1)
         this.gameInstance = null
+        console.log('fullscreen!')
       },
       message(gameObject, method, param) {
         if (param === null) {
