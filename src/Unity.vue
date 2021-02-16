@@ -31,7 +31,8 @@
     },
     methods: {
       fullscreen () {
-        this.gameInstance.SetFullscreen(1)
+        //this.gameInstance.SetFullscreen(1)
+        this.gameInstance = null
       },
       message(gameObject, method, param) {
         if (param === null) {
